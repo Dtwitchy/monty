@@ -8,14 +8,14 @@
 */
 void free_stack(stack_t *head)
 {
-	stack_t *temp;
+	stack_t *aux;
 
-	temp = head;
+	aux = head;
 	while (head)
 	{
-		temp = head->next;
+		aux = head->next;
 		free(head);
-		head = temp;
+		head = aux;
 	}
 }
 
