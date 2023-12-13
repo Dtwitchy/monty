@@ -42,7 +42,6 @@ void f_pint(stack_t **head, unsigned int counter)
 	printf("%d\n", (*head)->n);
 }
 
-#include "monty.h"
 /**
   *f_nop- nothing
   *@head: stack head

@@ -1,9 +1,5 @@
 #ifndef MONTY_H
 #define MONTY_H
-<<<<<<< HEAD
-
-=======
->>>>>>> refs/remotes/origin/main
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -48,7 +44,7 @@ extern bus_t bus;
  * @f: function to handle the opcode
  *
  * Description: opcode and its function
- * for stack, queues, LIFO, FIFO Holberton project
+ * for stack, queues, LIFO, FIFO 
  */
 typedef struct instruction_s
 {
