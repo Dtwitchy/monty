@@ -3,16 +3,16 @@
 /**
  * f_pop - prints the top
  * @head: pointer to head of stack
- * @line_num: line number of current operation
+ * @counter: line_number 
  * Return: no return
 */
-void f_pop(stack_t **head, unsigned int line_num)
+void f_pop(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
 
 	if (*head == NULL)
 	{
-		fprintf(stderr, "L%d: can't pop an empty stack\n", line_num);
+		fprintf(stderr, "L%d: can't pop an empty stack\n", counter);
 		fclose(bus.file);
 		free(bus.content);
 		free_stack(*head);
@@ -27,14 +27,14 @@ void f_pop(stack_t **head, unsigned int line_num)
 /**
  * f_pint - prints the top
  * @head: pointer to head of stack
- * @line_num: line number of current operation
+ * @counter: line number of current operation
  * Return: no return
 */
-void f_pint(stack_t **head, unsigned int line_num)
+void f_pint(stack_t **head, unsigned int counter)
 {
 	if (*head == NULL)
 	{
-		fprintf(stderr, "L%u: can't pint, stack empty\n", line_num);
+		fprintf(stderr, "L%u: can't pint, stack empty\n", counter);
 		fclose(bus.file);
 		free(bus.content);
 		free_stack(*head);
@@ -46,11 +46,11 @@ void f_pint(stack_t **head, unsigned int line_num)
 /**
   *f_nop- nothing
   *@head: stack head
-  *@line_num: line number of current operation
+  *@counter: line number of current operation
   *Return: no return
  */
-void f_nop(stack_t **head, unsigned int line_num)
+void f_nop(stack_t **head, unsigned int counter)
 {
-	(void) line_num;
+	(void) counter;
 	(void) head;
 }

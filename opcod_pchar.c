@@ -3,7 +3,7 @@
  * f_pchar - prints the char at the top of the stack,
  * followed by a new line
  * @head: pointer to head of stack
- * @line_num: line numbrr of current operation
+ * @line_num: line number of current operation
  * Return: no return
 */
 void f_pchar(stack_t **head, unsigned int line_num)
