@@ -2,10 +2,10 @@
 /**
  * f_queue - prints the top 
  * @head: stack the head
- * @line_num: line number of current operation
+ * @counter: line number of current operation
  * Return: no return
 */
-void f_queue(stack_t **head, unsigned int line_num)
+void f_queue(stack_t **head, unsigned int counter)
 {
 	(void)head;
 	(void)counter;

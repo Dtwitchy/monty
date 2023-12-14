@@ -2,10 +2,10 @@
 /**
   *f_rotl- rotates the stack to the top exactly
   *@head: pointer to head of stack
-  *@line_num: line number of current operation
+  *@counter: line number of current operation
   *Return: no return
  */
-void f_rotl(stack_t **head,  __attribute__((unused)) unsigned int line_num)
+void f_rotl(stack_t **head,  __attribute__((unused)) unsigned int counter)
 {
 	stack_t *tmp = *head, *aux;
 
