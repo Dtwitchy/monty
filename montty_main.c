@@ -4,10 +4,12 @@
 #include <stdlib.h>
 
 bus_t bus = {NULL, NULL, NULL, 0};
+
 /**
-* main - The monty code interpreter
-* @argc: number of arguments
-* @argv: monty file location
+* main - The function for monty code interpreter
+* @argc: argument count
+* @argv: argument value
+*
 * Return: 0 on success
 */
 int main(int argc, char *argv[])
