@@ -1,4 +1,4 @@
-#include "monty.h"
+nclude "monty.h"
 /**
  * f_pchar - prints the char at the top of the stack,
  * followed by a new line
@@ -10,7 +10,7 @@ void f_pchar(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
 
-        h = *head;
+	h = *head;
 	if (!h)
 	{
 		fprintf(stderr, "L%d: can't pchar, stack empty\n", counter);
