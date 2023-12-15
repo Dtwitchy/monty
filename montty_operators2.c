@@ -2,7 +2,7 @@
 
 /**
  * f_pop - prints the top
- * @head: stack head 
+ * @head: stack head
  * @counter:line_number
  * Return: no return
  */
