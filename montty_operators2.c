@@ -2,7 +2,7 @@
 
 /**
  * f_pop - prints the top
- * @head: pointer to head of stack
+ * @head: stack head
  * @counter: line_number 
  * Return: no return
 */
@@ -26,8 +26,8 @@ void f_pop(stack_t **head, unsigned int counter)
 
 /**
  * f_pint - prints the top
- * @head: pointer to head of stack
- * @counter: line number of current operation
+ * @head: stack head
+ * @counter: line_number
  * Return: no return
 */
 void f_pint(stack_t **head, unsigned int counter)
@@ -46,7 +46,7 @@ void f_pint(stack_t **head, unsigned int counter)
 /**
   *f_nop- nothing
   *@head: stack head
-  *@counter: line number of current operation
+  *@counter: line_number
   *Return: no return
  */
 void f_nop(stack_t **head, unsigned int counter)

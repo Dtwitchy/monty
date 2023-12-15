@@ -2,14 +2,14 @@
 /**
  * f_pstr - prints the string starting at the top of the stack,
  * followed by a new
- * @head: pointer to head of stack
- * @counter: line number of current operation
+ * @head: stack head
+ * @counter: line_number
  * Return: no return
 */
 void f_pstr(stack_t **head, unsigned int counter)
 {
         stack_t *h;
-        (void)line_num;
+        (void)counter;
 
         h = *head;
         while (h)
